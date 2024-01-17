@@ -1,3 +1,5 @@
+package tests;
+
 import data.DataFaker;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
@@ -16,7 +18,7 @@ public class RegistrationPageTests extends TestBase {
 
     @DisplayName("Полное заполнение формы, отправка и проверка")
     @Test
-    @Tag("ollField")
+    @Tag("allFields")
     void fillFormTestFaker() {
 
         step("Открытие страницы с формой", () -> {
@@ -62,7 +64,7 @@ public class RegistrationPageTests extends TestBase {
 
     @DisplayName("Минимальное заполнение формы, отправка и проверка")
     @Test
-    @Tag("minField")
+    @Tag("minFields")
     void minimumfillFomTest() {
         step("Открытие страницы с формой", () -> {
             registrationPage.openPage();

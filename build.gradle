@@ -59,15 +59,15 @@ task regression_test(type: Test) {
     }
 }
 
-task ollField_test(type: Test) {
+task allFields_test(type: Test) {
     useJUnitPlatform {
-        includeTags("ollField")
+        includeTags("allFields")
     }
 }
 
-task minField_test(type: Test) {
+task minFields_test(type: Test) {
     useJUnitPlatform {
-        includeTags("minField")
+        includeTags("minFields")
     }
 }
 
