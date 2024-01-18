@@ -15,6 +15,7 @@ build/
 
 ### Gradle ###
 .gradle
+
 .bat
 settings.gradle
 ### Logs ###
